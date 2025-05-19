@@ -2,12 +2,15 @@ const http = require("http");
 const porta = 3000;
 
 const { getSystemInfo } = require("./modules/systeminfo")
+const { getClientInfo } = require("./modules/clientInfo")
 
 const server = http.createServer((req, res) => {
     const systeminfo = getSystemInfo();
+    const clientInfo = getClientInfo(req);
 
     const responseData = {
-        servidor: systeminfo
+        servidor: systeminfo,
+        cliente: clientInfo
     }
 
   res.writeHead(200, {
