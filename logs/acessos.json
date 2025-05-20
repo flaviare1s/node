@@ -1,0 +1,44 @@
+[
+  {
+    "dataHora": "2025-05-20T11:47:29.499Z",
+    "servidor": {
+      "hostname": "SUL-019826",
+      "plataforma": "win32",
+      "arquitetura": "x64",
+      "processor": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+      "nucleos": 8,
+      "memoria": {
+        "totalMB": "7975.30",
+        "livreMB": "1876.22",
+        "usoPercentual": "76.47%"
+      }
+    },
+    "cliente": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "ip": "::1",
+      "language": "p",
+      "plataforma": "Windows"
+    }
+  },
+  {
+    "dataHora": "2025-05-20T11:47:29.549Z",
+    "servidor": {
+      "hostname": "SUL-019826",
+      "plataforma": "win32",
+      "arquitetura": "x64",
+      "processor": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+      "nucleos": 8,
+      "memoria": {
+        "totalMB": "7975.30",
+        "livreMB": "1875.82",
+        "usoPercentual": "76.48%"
+      }
+    },
+    "cliente": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "ip": "::1",
+      "language": "p",
+      "plataforma": "Windows"
+    }
+  }
+]

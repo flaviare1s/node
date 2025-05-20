@@ -1,17 +1,20 @@
 const http = require("http");
 const porta = 3000;
 
-const { getSystemInfo } = require("./modules/systeminfo")
-const { getClientInfo } = require("./modules/clientInfo")
+const { getSystemInfo } = require("./modules/systeminfo");
+const { getClientInfo } = require("./modules/clientInfo");
+const { logAccess } = require("./modules/logger");
 
 const server = http.createServer((req, res) => {
-    const systeminfo = getSystemInfo();
-    const clientInfo = getClientInfo(req);
+  const systeminfo = getSystemInfo();
+  const clientInfo = getClientInfo(req);
 
-    const responseData = {
-        servidor: systeminfo,
-        cliente: clientInfo
-    }
+  const responseData = {
+    servidor: systeminfo,
+    cliente: clientInfo,
+  };
+
+  logAccess(responseData);
 
   res.writeHead(200, {
     "Content-Type": "text/plain",
