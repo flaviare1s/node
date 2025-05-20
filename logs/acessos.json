@@ -1,6 +1,6 @@
 [
   {
-    "dataHora": "2025-05-20T11:47:29.499Z",
+    "dataHora": "2025-05-20T11:50:19.012Z",
     "servidor": {
       "hostname": "SUL-019826",
       "plataforma": "win32",
@@ -9,8 +9,8 @@
       "nucleos": 8,
       "memoria": {
         "totalMB": "7975.30",
-        "livreMB": "1876.22",
-        "usoPercentual": "76.47%"
+        "livreMB": "1277.50",
+        "usoPercentual": "83.98%"
       }
     },
     "cliente": {
@@ -21,7 +21,7 @@
     }
   },
   {
-    "dataHora": "2025-05-20T11:47:29.549Z",
+    "dataHora": "2025-05-20T11:50:19.040Z",
     "servidor": {
       "hostname": "SUL-019826",
       "plataforma": "win32",
@@ -30,8 +30,8 @@
       "nucleos": 8,
       "memoria": {
         "totalMB": "7975.30",
-        "livreMB": "1875.82",
-        "usoPercentual": "76.48%"
+        "livreMB": "1270.21",
+        "usoPercentual": "84.07%"
       }
     },
     "cliente": {
